@@ -1,0 +1,19 @@
+.top-banner{
+    text-align: center;
+    color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    font-family:'Poppins', sans-serif;
+}
+#title1{
+ font-size: 80px;
+}
+.button{
+    border-radius: 10px;
+    border-color:white;
+    background-color: rgb(250, 87, 87);
+    color: white;
+    font-size: 30px;
+   text-decoration: none;
+}
