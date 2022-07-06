@@ -1,5 +1,11 @@
 body {
   font-family:'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 .top-banner{
     text-align: center;
@@ -8,8 +14,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    margin: 0;
-    padding-top: 60px;  
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
 }
 h1{
  font-size: 80px;
@@ -19,7 +26,6 @@ h3{
   font-size: 25px;
 }
 .button{
-  text-decoration: none;
     border-radius: 10px;
     border-color:rgb(216, 54, 54);
     background-color: rgb(250, 87, 87);
@@ -30,7 +36,6 @@ h3{
     padding: 15px;
 }
 #button2{
-  margin-left: 850px;
   margin-top: 10px;
 }
 .descriptive{
@@ -70,7 +75,7 @@ font-size: 30px;
 font-weight: 700;
 color: rgb(82, 82, 82);
 text-align:center;
-margin: auto;
+margin: 0 30px;
 height: 90px;
 width: 150px;
 border-radius: 5px;
@@ -100,7 +105,7 @@ border-style: solid;
 }
 .tk{
   margin-top: 200px;
-  margin-left: 560px;
+
   font-size: 25px;
   color: gray;
   font-weight: 400;
@@ -128,14 +133,22 @@ width: 800px;
   justify-content: center;
   height: 50vh;
 }
+#subscription-box{
+  background: rgb(255, 251, 188); 
+ 
+  border: 1px solid lightgray; 
+  margin: 80px 350px 80px 350px;
+  align-items: center;
+}
 .emailbox input {
-  font-size: 18px;
-  color: white;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
   padding: 15px 10px;
   border: none;
   border-radius: 5px;
   outline: none;
   background: rgb(212, 212, 212);
+  width: 400px;
 }
 .emailbox button {
   background-color: rgb(250, 87, 87);
@@ -144,9 +157,6 @@ width: 800px;
   font-size: 20px;
   border:none;
   border-radius: 5px;
-}
-.footers{
- 
 }
 #humble {
   font-size: 40px;
@@ -157,13 +167,13 @@ width: 800px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
+  margin-top: 40px;
 }
 .footer{
   display: block;
-  align-items: center;
   text-align: center;
-  justify-items: center;
   background-color: black;
   height: 200px;
+  padding-top: 50px;
 
 }
