@@ -1,19 +1,30 @@
 .top-banner{
     text-align: center;
-    color: antiquewhite;
-    height: 100%;
-    width: 100%;
-    position:absolute;
+    color: white;
     font-family:'Poppins', sans-serif;
+    background-image:url(images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding-top: 60px;  
 }
-#title1{
+h1{
  font-size: 80px;
+ padding-top: 30px;
+}
+h3{
+  font-size: 30px;
 }
 .button{
     border-radius: 10px;
-    border-color:white;
+    border-color:rgb(216, 54, 54);
     background-color: rgb(250, 87, 87);
     color: white;
     font-size: 30px;
-   text-decoration: none;
+    margin: 225px;
+    border: 50px;
+}
+.descriptive{
+  color: white;
 }
