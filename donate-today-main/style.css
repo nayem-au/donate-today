@@ -1,7 +1,9 @@
+body {
+  font-family:'Poppins', sans-serif;
+}
 .top-banner{
     text-align: center;
     color: white;
-    font-family:'Poppins', sans-serif;
     background-image:url(images/donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,9 +16,10 @@ h1{
  padding-top: 30px;
 }
 h3{
-  font-size: 30px;
+  font-size: 25px;
 }
 .button{
+  text-decoration: none;
     border-radius: 10px;
     border-color:rgb(216, 54, 54);
     background-color: rgb(250, 87, 87);
@@ -24,7 +27,143 @@ h3{
     font-size: 30px;
     margin: 225px;
     border: 50px;
+    padding: 15px;
+}
+#button2{
+  margin-left: 850px;
+  margin-top: 10px;
 }
 .descriptive{
   color: white;
+}
+.title{
+  text-align: center;
+}
+.section3{
+  margin-top: 70px;
+}
+.section-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+  box-shadow: 10px 10px 20px gray;
+  background-color: rgb(202, 239, 227);
+}
+#box2{
+  background-color: rgb(255, 255, 158);
+}
+#box3{
+  background-color: rgb(232, 208, 254);
+}
+.justify-text{
+  text-align: justify;
+  padding: 10px 30px;
+}
+.donation-box{
+font-size: 30px;
+font-weight: 700;
+color: rgb(82, 82, 82);
+text-align:center;
+margin: auto;
+height: 90px;
+width: 150px;
+border-radius: 5px;
+background-color: rgb(223, 221, 221);
+}
+.amount{
+  vertical-align: middle;
+}
+.amount-box{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+#sample{
+  color: rgb(250, 40, 40);
+  background-color: rgb(255, 179, 179);
+  border: 2px;
+border-style: solid;
+}
+#other-amount{
+  color: gray;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  
+}
+.tk{
+  margin-top: 200px;
+  margin-left: 560px;
+  font-size: 25px;
+  color: gray;
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  width: 800px;
+  padding: 8px;
+  outline: 10px;
+  border-style: none none solid none;
+}
+.email{
+  margin: 150px;
+  padding: 10px;
+height: 200px;
+width: 800px;
+  box-sizing: border-box;
+  background-color: rgba(255, 237, 156, 0.976);
+  align-items: center;
+  justify-content: center;
+}
+.emailbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.emailbox input {
+  font-size: 18px;
+  color: white;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgb(212, 212, 212);
+}
+.emailbox button {
+  background-color: rgb(250, 87, 87);
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  border:none;
+  border-radius: 5px;
+}
+.footers{
+ 
+}
+#humble {
+  font-size: 40px;
+  color: red;
+  font-family:fantasy;
+}
+#doit{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.footer{
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  background-color: black;
+  height: 200px;
+
 }
