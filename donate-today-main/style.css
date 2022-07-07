@@ -2,6 +2,7 @@ body {
   font-family:'Poppins', sans-serif;
   text-align: center;
   margin: 0;
+  height: 100%;
 }
 a{
   text-decoration: none;
@@ -10,7 +11,8 @@ a{
 .top-banner{
     text-align: center;
     color: white;
-    background-image:url(images/donation13.jpg);
+    background:linear-gradient(180deg,rgb(255, 255, 255,.01),rgb(0,0,0,5)),
+    url(images/donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -19,8 +21,9 @@ a{
     align-items: center;
 }
 h1{
- font-size: 80px;
- padding-top: 30px;
+ font-size: 50px;
+ padding-top: 50px;
+
 }
 h3{
   font-size: 25px;
@@ -30,8 +33,8 @@ h3{
     border-color:rgb(216, 54, 54);
     background-color: rgb(250, 87, 87);
     color: white;
-    font-size: 30px;
-    margin: 225px;
+    font-size: 20px;
+    margin: 100px;
     border: 50px;
     padding: 15px;
 }
@@ -42,10 +45,10 @@ h3{
   color: white;
 }
 .title{
-  text-align: center;
+  margin-top: 200px;
 }
 .section3{
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .section-box{
   display: flex;
@@ -105,18 +108,77 @@ border-style: solid;
 }
 .tk{
   margin-top: 200px;
-
   font-size: 25px;
   color: gray;
   font-weight: 400;
   align-items: center;
   text-align: center;
   height: 30px;
-  width: 800px;
+  width: 50%;
   padding: 8px;
   outline: 10px;
   border-style: none none solid none;
 }
+.section4{
+  margin-top: 100px;
+  display:flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+.half-width img{
+  width: 100%;
+   padding-right: 2%;
+}
+.comment-box{
+  top:50%;
+  left:50%;
+  width: 750px;
+  height: 500px;
+}
+.comment-box h2{
+  font-size: 20px;
+  margin-bottom:15px ;
+}
+.comment-box input{
+  width:100%;
+  height:50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.comment-box input:focus{
+  border: 1px solid black;
+  outline: 0;
+}
+.comment-box textarea {
+  width: 100%;
+  height:150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.comment-box textarea:focus {
+ border: 1px solid black;
+ outline: 0;
+}
+.comment-box button {
+  border: 0;
+  padding: 10px 30px;
+  background: rgb(245, 67, 67);
+  font-size: 25px;
+  border-radius: 5px;
+  color: white;
+}
+.comment-box button:hover {
+  background-color: gray;
+}
+
+
 .email{
   margin: 150px;
   padding: 10px;
@@ -160,12 +222,12 @@ width: 800px;
 }
 #humble {
   font-size: 40px;
-  color: red;
-  font-family:fantasy;
+  color: rgb(255, 96, 96);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #doit{
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 20px;
   margin-top: 40px;
 }
@@ -175,5 +237,4 @@ width: 800px;
   background-color: black;
   height: 200px;
   padding-top: 50px;
-
 }
