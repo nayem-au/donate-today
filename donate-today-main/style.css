@@ -74,13 +74,13 @@ h3{
   padding: 10px 30px;
 }
 .donation-box{
-font-size: 30px;
+font-size: 20px;
 font-weight: 700;
 color: rgb(82, 82, 82);
 text-align:center;
 margin: 0 30px;
-height: 90px;
-width: 150px;
+height: 75px;
+width: 120px;
 border-radius: 5px;
 background-color: rgb(223, 221, 221);
 }
@@ -135,7 +135,7 @@ border-style: solid;
 .comment-box{
   top:50%;
   left:50%;
-  width: 750px;
+  width: 550px;
   height: 500px;
 }
 .comment-box h2{
