@@ -26,7 +26,11 @@ h1{
 
 }
 h3{
-  font-size: 25px;
+  font-size: 20px;
+}
+h4{
+  font-size: 15px;
+  font-weight: 600;
 }
 .button{
     border-radius: 10px;
@@ -58,6 +62,7 @@ h3{
   width: 400px;
   height: 400px;
   margin-top: 50px;
+  border-radius: 5px;
   padding-top: 50px;
   text-align: center;
   box-shadow: 10px 10px 20px gray;
@@ -100,7 +105,7 @@ border-style: solid;
 }
 #other-amount{
   color: gray;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
   align-items: center;
